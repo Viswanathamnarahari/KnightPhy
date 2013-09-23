@@ -21,7 +21,10 @@ def nextHop(xy,r,c):
         newxy = 20   
     return newxy
 
+
+
 xy = 0
+xy = 10
 nxy = nextHop(xy, -2,-1); print (nxy)
 nxy = nextHop(xy, -2,1) ; print (nxy)
 nxy = nextHop(xy, -1,-2) ; print (nxy)
